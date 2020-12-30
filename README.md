@@ -1,6 +1,6 @@
 # Visual Studio Project Templates
 
-[Visual Studio](https://visualstudio.microsoft.com/) extension that uses templates to quickly create new projects for Tekla Structures macros
+[Visual Studio](https://visualstudio.microsoft.com/) (2017/2019) extension that uses templates to quickly create new projects for Tekla Structures (2017i/2019i) macros
 
 ## Features
 
