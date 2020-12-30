@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="TeklanologyTemplates-01" Version="1.0" Language="en-US" Publisher="teklanology" />
-        <DisplayName>Teklanology Templates</DisplayName>
-        <Description xml:space="preserve">Teklanology templates for various versions of Tekla Structures</Description>
+        <Identity Id="project-templates-01" Version="1.0.0" Language="en-US" Publisher="teklanology" />
+        <DisplayName>Project Templates</DisplayName>
+        <Description xml:space="preserve">Visual Studio extension that uses templates to quickly create new projects for Tekla Structures macros</Description>
         <MoreInfo>https://teklanology.github.io</MoreInfo>
-        <Tags>tekla templates</Tags>
-        <Preview>true</Preview>
+        <Tags>tekla projecttemplate</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Community" />

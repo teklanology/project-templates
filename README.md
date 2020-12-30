@@ -11,7 +11,8 @@
 
 ## Install
 
-In Visual Studio, search...
+In Visual Studio, search "teklanology.project-templates-01"
+Alternatively download vsix file from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=teklanology.project-templates-01) or [GitHub](https://github.com/teklanology/project-templates/releases/latest)
 
 ## Release Notes
 
@@ -21,7 +22,7 @@ See [CHANGELOG](https://github.com/teklanology/project-templates/tree/master/CHA
 
 Upon launching Visual Studio, select the required template, input the details and create the project. The template will then name the project and .cs file accordingly, and import the NuGet package for the Tekla Structures version you have selected.
 
-## Road map:
+## Road map
 
 * Support for using code from recorded macros
 * Additional templates for WinForms, model/drawing plugins
