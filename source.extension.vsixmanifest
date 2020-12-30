@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="TeklanologyTemplates-01" Version="1.0" Language="en-US" Publisher="teklanology" />
+        <DisplayName>Teklanology Templates</DisplayName>
+        <Description xml:space="preserve">Teklanology templates for various versions of Tekla Structures</Description>
+        <MoreInfo>https://teklanology.github.io</MoreInfo>
+        <Tags>tekla templates</Tags>
+        <Preview>true</Preview>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Community" />
+    </Installation>
+    <Dependencies>
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\teklanology\TS2017i\Script macro.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\teklanology\TS2019i\Script macro.zip" />
+        <Asset Type="TeklaOpenAPI.2019.1.50434.nupkg" d:Source="File" Path="packages\TeklaOpenAPI.2019.1.50434.nupkg" d:VsixSubPath="packages" />
+        <Asset d:Source="File" Type="TeklaOpenAPI.2017.1.10074.nupkg" Path="packages\TeklaOpenAPI.2017.1.10074.nupkg" d:VsixSubPath="packages" />
+    </Assets>
+</PackageManifest>
