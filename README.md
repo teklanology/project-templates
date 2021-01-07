@@ -29,3 +29,7 @@ Upon launching Visual Studio, select the required template, input the details an
 * Additional templates for model/drawing plugins
 * Support for additional versions of Tekla Structures
 * Support for additional versions of Visual Studio
+
+## Buy me a coffee!
+
+<a href="https://www.buymeacoffee.com/teklanology" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
