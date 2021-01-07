@@ -66,6 +66,14 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="CHANGELOG.md" />
+    <Content Include="ProjectTemplates\teklanology\TS2017i\WinForms macro.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\teklanology\TS2019i\WinForms macro.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="README.md" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
