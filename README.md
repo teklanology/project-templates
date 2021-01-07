@@ -6,6 +6,7 @@
 
 * Create a new project from one of the following templates:
   * Script macro (what I refer to a macro without a form dialog)
+  * WinForm macro
 * Project can then be written & debugged in Visual Studio
 * .cs file can then be copied to the model/drawing macro folder to be used from Macros list
 
@@ -25,6 +26,6 @@ Upon launching Visual Studio, select the required template, input the details an
 ## Road map
 
 * Support for using code from recorded macros
-* Additional templates for WinForms, model/drawing plugins
+* Additional templates for model/drawing plugins
 * Support for additional versions of Tekla Structures
 * Support for additional versions of Visual Studio
